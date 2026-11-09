@@ -25,8 +25,8 @@ export function SummaryScreen({ kids, locked, remindersOn, onToggleReminders, on
       </View>
 
       <View style={{ flexDirection: 'row', gap: 10, marginBottom: 14, flexWrap: 'wrap' }}>
-        <Pressable style={[styles.btn, { marginBottom: 0 }]} onPress={onEdit}>
-          <Text style={styles.btnTxt}>{locked ? '🔒' : '🔓'} Set up / edit children</Text>
+        <Pressable style={[styles.btn, { marginBottom: 0, backgroundColor: '#ffffff22' }]} onPress={onEdit}>
+          <Text style={styles.btnTxt}>{locked ? '🔒' : '🔓'} Parent</Text>
         </Pressable>
         <Pressable style={[styles.btn, { marginBottom: 0, backgroundColor: remindersOn ? colors.red : '#ffffff22' }]} onPress={onToggleReminders}>
           <Text style={styles.btnTxt}>🔔 Reminders: {remindersOn ? 'On' : 'Off'}</Text>
@@ -36,7 +36,7 @@ export function SummaryScreen({ kids, locked, remindersOn, onToggleReminders, on
       {kids.length === 0 && (
         <View style={{ padding: 40, alignItems: 'center' }}>
           <Text style={styles.emptyH}>No children yet</Text>
-          <Text style={styles.empty}>Tap the button above to add your little ones.</Text>
+          <Text style={styles.empty}>Tap "Parent" above to add your little ones.</Text>
         </View>
       )}
 
