@@ -31,7 +31,7 @@ export default function App() {
     const next = await setReminders(!remindersOn);
     setRemindersOn(next);
     if (!next && !remindersOn) {
-      Alert.alert('Notifications are off', 'Allow notifications for Santa's List in your phone settings to get reminders.');
+      Alert.alert('Notifications are off', "Allow notifications for Santa's List in your phone settings to get reminders.");
     }
   };
 
