@@ -1,13 +1,13 @@
-# Google Play listing: Santa's List
+# Google Play listing: Santa's Naughty or Nice List
 
 ## App name (max 30)
-Santa's List
+Santa's Naughty or Nice List
 
 ## Short description (max 80)
-Track good deeds and see if your kids are on Santa's Nice List this Christmas!
+Track every good deed or misstep this holiday season. Naughty or Nice?
 
 ## Full description (max 4000)
-Is everyone on the Nice List? Find out with Santa's List, the fun Christmas tracker for families.
+Have your children been naughty? Or nice? Santa's Naughty or Nice List is here to help you keep track of every good deed or misstep this holiday season.
 
 Log your children's good (and not-so-good) deeds all year long and watch the Deed Meter swing between Naughty and Nice. Each child gets their own list, complete with Santa holding the scroll!
 
